@@ -1,16 +1,21 @@
-# intern
+# Fundraising Application
+A multi-screen mobile application built with Flutter for a fundraising application. The app features a dynamic UI with custom backgrounds, user authentication, a dashboard, a competitive leaderboard, and an announcements section.
 
-A new Flutter project.
+## ✨ Features
+### Dynamic Login Screen:
+A beautiful login page with a  image background and the organization's logo.
 
-## Getting Started
+### Main Dashboard:
+Welcomes the user, displays their referral code, and shows the total amount of donations raised.
 
-This project is a starting point for a Flutter application.
+### Rewards System:
+A dedicated section to showcase unlockable rewards based on fundraising milestones.
 
-A few resources to get you started if this is your first Flutter project:
+### Competitive Leaderboard:
+Ranks top performers with scores and profile pictures. The top three fundraisers are highlighted with gold, silver, and bronze medal emojis.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Announcements Page: 
+A list of recent announcements to keep interns informed.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Bottom Navigation: 
+Simple and intuitive navigation between the main sections of the app using an IndexedStack to preserve page state.
